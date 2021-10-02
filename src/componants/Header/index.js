@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from '../../img/logo.svg';
-import '../../App.css'
 import './style.css';
 
 
@@ -22,9 +21,9 @@ const Header = () => {
                
             </ul>
             
-            {/* <div className="">
-                <span></span>
-            </div> */}
+            <div className="visbule-sx nav-icon">
+                <div></div>
+            </div>
         </header>
     )
 };
