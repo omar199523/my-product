@@ -1,10 +1,7 @@
 /*  */
 .main-pepole{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-top:9em !important;
-    flex-wrap: wrap;
+    flex-direction: row-reverse;
 }
 .text-cont{
     flex: 1 2 350px;
@@ -25,21 +22,6 @@
     font-size: 1.13em;
     color: #22343D;
     padding: 1em;
-}
-@media (max-width:767px){
-    .text-cont *{
-        text-align: center;
-        
-    }
-    .text-cont p{
-        padding: 1em 2.4em ;
-    }
-}
-.pepole-img{
-    flex: 1 3 411px;
-}
-.pepole-img img{
-    width: 100%;
 }
 .button-cont{
     display: flex;
@@ -63,3 +45,22 @@
     background-color: #fff;
     text-indent: 2px;
 }
+@media (max-width:767px){
+    .text-cont *{
+        text-align: center;
+        
+    }
+    .text-cont p{
+        padding: 1em 2.4em ;
+    }
+    .button-cont{
+        justify-content: center;
+    }
+}
+.pepole-img{
+    flex: 1 3 411px;
+}
+.pepole-img img{
+    width: 100%;
+}
+
