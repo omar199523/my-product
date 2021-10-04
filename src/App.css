@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+>>>>>>> af78a2077ee4161322b8fe7aa3ce79128f13c092
 html{
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
