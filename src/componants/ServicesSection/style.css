@@ -5,3 +5,47 @@
     align-items: center;
 
 }
+.service-title{
+    width: 568px;
+    padding: 1em 3em;
+}
+.service-title h2{
+    text-align: center;
+}
+.service-section .Services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.service-section .Services > div{
+    flex: 4 4 250px;
+    display: flex;
+    flex-direction: column;
+    padding:2em 2em;
+}
+.Services  div > img{
+    width: 50px;
+    height: 50px;
+}
+@media (max-width:767px){
+    .Services{
+        align-items: center;
+    }
+    .service-section .Services > div{
+        align-items: center;
+        padding:2em 4em;
+    } 
+    .Services div >h6{
+        text-align: center;
+    }
+}
+.service-section .button-cont > button{
+    background-color: #02897A;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 1em 1.5em;
+}
+

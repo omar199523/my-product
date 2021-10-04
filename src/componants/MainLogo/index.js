@@ -14,7 +14,6 @@ import {H1,H6} from '../Typograph'
                     <button>Watch the Video</button>
                 </div> 
             </div>
-            <div className="pepole-img"><img src={pepoleLogo} alt=""/></div>
 
         </div>
     )
