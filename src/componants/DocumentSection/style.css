@@ -3,32 +3,28 @@
 }
 .docu-img{
     flex: 1 2 360px;
+    padding: 1.2em;
 }
 .docu-img img{
     width: 100%;
 }
-.docu-text{
+.docu-cont .docu-text{
     flex:1 2 350px;
-    padding: 1.2em;
+    padding: 2em;
 }
-.docu-text *{
-    font-weight:900 ;
-    color: #22343D;
-    margin-top:0.4em ;
+.docu-text p:first-child{
+    padding:0.2em;
+    
 }
-.docu-text p{
-    font-size: 1rem;
-    font-weight: normal;
-    padding: 0.2em;
+.docu-cont .docu-text>p{
+    padding: 1em 0.2em 0em;
 }
 .docu-text h2{
-    font-size: 2em;
-    margin-top: 0.2em;
-    padding: 0.6em;
+    padding: 0.2em 0em 0em;
 }
 
-.docu-text *:not(p:first-of-type){
-    padding: 0em 0px 0.4em;
-}
+
+
+
 
 

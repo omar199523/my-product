@@ -9,6 +9,11 @@
     width: 568px;
     padding: 1em 3em;
 }
+@media (max-width:767px){
+    .service-title{
+        width: 411px;
+    }
+}
 .service-title h2{
     text-align: center;
 }
