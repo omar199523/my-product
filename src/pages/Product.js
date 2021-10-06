@@ -7,6 +7,7 @@ import ServiceSection from '../componants/ServicesSection';
 import DocumentSection from '../componants/DocumentSection'
 import CollaborativeSection from '../componants/CollaborativeSection'
 import CustomarSuport from '../componants/CustomarSuport'
+import QuickSection from '../componants/QuickSection'
 const Product = () => {
     return (
         <>
@@ -16,6 +17,7 @@ const Product = () => {
             <DocumentSection/>
             <CustomarSuport/>
             <CollaborativeSection/>
+            <QuickSection/>
             {/* <Footer/> */}
         </>
     )
