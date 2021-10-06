@@ -12,22 +12,22 @@ const ServiceSection = () => {
             <div className="service-title"><H2>Product  was Built Specifically for You</H2></div>
             <div className ="Services">
                 <div>
-                    <img src={pointer}/>
+                    <img src={pointer} alt=""/>
                     <H4>First click tests</H4>
                     <H6>While most people enjoy casino gambling,</H6>
                 </div>
                 <div>
-                    <img src={design}/>
+                    <img src={design} alt=""/>
                     <H4>Design surveys</H4>
                     <H6>Sports betting, lottery and bingo playing for the fun</H6>
                 </div>
                 <div>
-                    <img src={fiveSecond}/>
+                    <img src={fiveSecond} alt=""/>
                     <H4>Preference tests</H4>
                     <H6>The Myspace page defines the individual.</H6>
                 </div>
                 <div>
-                    <img src={preference}/>
+                    <img src={preference} alt=""/>
                     <H4>Five second tests</H4>
                     <H6>Personal choices and the overall personality of the person. </H6>
                 </div>

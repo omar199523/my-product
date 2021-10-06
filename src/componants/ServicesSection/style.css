@@ -6,7 +6,7 @@
 
 }
 .service-title{
-    width: 568px;
+    max-width: 568px;
     padding: 1em 3em;
 }
 @media (max-width:767px){
