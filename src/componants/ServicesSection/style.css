@@ -1,65 +1,59 @@
-.service-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.service-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.service-title {
+  max-width: 568px;
+  padding: 1em 2em;
+}
+
+.service-title h2 {
+  text-align: center;
+}
+.service-section .Services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.service-section .Services > div {
+  flex: 4 4 220px;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 1.2em;
+}
+.Services div > img {
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 767px) {
+  .Services {
     align-items: center;
-
-}
-.service-title{
-    max-width: 568px;
-    padding: 1em 3em;
-}
-@media (max-width:767px){
-    .service-title{
-        width: 411px;
-    }
-}
-.service-title h2{
+  }
+  .service-section .Services > div {
+    align-items: center;
+    padding: 2em 4em;
+    flex: 2 2 250px;
+  }
+  .Services div > h6 {
     text-align: center;
+  }
 }
-.service-section .Services{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: baseline;
+@media (min-width: 768px) and (max-width: 920px) {
+  .service-section .Services > div {
+    align-items: center;
+    padding: 2em 4em;
+  }
 }
-
-.service-section .Services > div{
-    flex: 4 4 220px;
-    display: flex;
-    flex-direction: column;
-    padding:2em 1.2em;
+.service-section .button-cont > button {
+  background-color: #02897a;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 900;
+  padding: 1em 1.5em;
+  border: 0;
 }
-.Services  div > img{
-    width: 50px;
-    height: 50px;
-}
-
-@media (max-width:767px){
-    .Services{
-        align-items: center;
-    }
-    .service-section .Services > div{
-        align-items: center;
-        padding:2em 4em;
-        flex: 2 2 250px;
-    } 
-    .Services div >h6{
-        text-align: center;
-    }
-}
-@media (min-width:768px) and (max-width:920px){
-    .service-section .Services > div{
-        align-items: center;
-        padding:2em 4em;
-    } 
-}
-.service-section .button-cont > button{
-    background-color: #02897A;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 900;
-    padding: 1em 1.5em;
-    border: 0;
-}
-
