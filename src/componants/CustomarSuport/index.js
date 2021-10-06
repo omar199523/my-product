@@ -12,8 +12,6 @@ const CustomarSuport = () => {
             <div className="customer-img"><img src={customer} alt=""/></div>
 
             <div className="customer-text-cont">
-            <div className="text-cont">
-
                 <P2>Easier decision making for</P2>
                 <H2>Customer Support</H2>
                 <P3>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </P3>

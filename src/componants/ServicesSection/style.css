@@ -25,15 +25,16 @@
 }
 
 .service-section .Services > div{
-    flex: 4 4 250px;
+    flex: 4 4 220px;
     display: flex;
     flex-direction: column;
-    padding:2em 2em;
+    padding:2em 1.2em;
 }
 .Services  div > img{
     width: 50px;
     height: 50px;
 }
+
 @media (max-width:767px){
     .Services{
         align-items: center;
@@ -41,10 +42,17 @@
     .service-section .Services > div{
         align-items: center;
         padding:2em 4em;
+        flex: 2 2 250px;
     } 
     .Services div >h6{
         text-align: center;
     }
+}
+@media (min-width:768px) and (max-width:920px){
+    .service-section .Services > div{
+        align-items: center;
+        padding:2em 4em;
+    } 
 }
 .service-section .button-cont > button{
     background-color: #02897A;
@@ -52,5 +60,6 @@
     font-size: 1rem;
     font-weight: 900;
     padding: 1em 1.5em;
+    border: 0;
 }
 

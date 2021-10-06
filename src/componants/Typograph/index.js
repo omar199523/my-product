@@ -3,10 +3,6 @@
 import React from 'react';
 import './style.css'
 
-export const H1 = ({ children }) => {
-import React from 'react';
-import './style.css'
-
 export const H1 = ({children}) => {
 
     return (
@@ -65,7 +61,6 @@ export const P2 = ({children}) => {
     )
 }
 export const P3 = ({children}) => {
-
     return (
         <>
            <p className="p3">{children}</p> 
