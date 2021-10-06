@@ -1,14 +1,14 @@
 /*  */
 .main-pepole{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top:9em !important;
-    flex-wrap: wrap;
+    margin: 8em auto !important;
+    flex-direction: row-reverse;
 }
 .main-pepole .text-cont{
     flex: 1 4 350px;
+
+    padding: 1em 2em;
     padding: 1em 3.4em;
+
     display: flex;
     flex-direction: column;
     
@@ -18,8 +18,12 @@
     padding: 0.25em;
 }
 
+
+.main-pepole .text-cont p {
+
 .text-cont p {
     
+
     padding: 1em;
 }
 @media (max-width:767px){
@@ -34,6 +38,9 @@
 }
 .pepole-img{
     flex: 1 3 360px;
+
+    padding: 1em;
+
 }
 .pepole-img img{
     width: 100%;
@@ -59,5 +66,24 @@
     color: #02897A;
     background-color: #fff;
     text-indent: 2px;
+
+}
+@media (max-width:767px){
+    .text-cont *{
+        text-align: center;
+        
+    }
+    .text-cont p{
+        padding: 1em 2.4em ;
+    }
+    .button-cont{
+        justify-content: center;
+    }
+}
+
+
+
+
     flex: 5 1 156px;
 }
+

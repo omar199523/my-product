@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
 html{
     font-size: 16px;
@@ -9,9 +10,16 @@ html{
     box-sizing: border-box;
     
 }
+.App{
+    max-width: 100%;
+}
 .container{
     padding: 1em;
-    margin: auto;
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -35,9 +43,7 @@ html{
 .h1{
     font-size: 2em;
 }
-.paragraph-Res{
-    
-}
+
  .align-center{
      text-align: center;
  }
@@ -49,7 +55,7 @@ html{
         display: block !important;
     }
     .hadin-sx{
-        display: none;
+        display: none !important;
     }
     
     .product{

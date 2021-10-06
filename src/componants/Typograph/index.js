@@ -1,7 +1,14 @@
+
+/* eslint-disable react/prop-types */
+import React from 'react';
+import './style.css'
+
+export const H1 = ({ children }) => {
 import React from 'react';
 import './style.css'
 
 export const H1 = ({children}) => {
+
     return (
         <>
            <h2 className="h1">{children}</h2> 
@@ -58,9 +65,11 @@ export const P2 = ({children}) => {
     )
 }
 export const P3 = ({children}) => {
+
     return (
         <>
            <p className="p3">{children}</p> 
         </>
     )
 }
+

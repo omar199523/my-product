@@ -3,10 +3,29 @@
 }
 .docu-img{
     flex: 1 2 360px;
+
+    padding: 1.2em;
+
 }
 .docu-img img{
     width: 100%;
 }
+
+.docu-cont .docu-text{
+    flex:1 2 350px;
+    padding: 2em;
+}
+.docu-text p:first-child{
+    padding:0.2em;
+    
+}
+.docu-cont .docu-text>p{
+    padding: 1em 0.2em 0em;
+}
+.docu-text h2{
+    padding: 0.2em 0em 0em;
+}
+
 .docu-text{
     flex:1 2 350px;
     padding: 0.6em;
