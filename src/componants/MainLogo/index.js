@@ -15,7 +15,11 @@ import {H1,H6} from '../Typograph'
                 </div> 
             </div>
 
+
         </section>
+            <div className="pepole-img"><img src={pepoleLogo} alt=""/></div>
+        </div>
+
     )
     
  }
