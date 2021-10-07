@@ -5,6 +5,10 @@
   flex: 1 2 300px;
   padding: 1em;
 }
+.collaborative-img img{
+  max-width:100%;
+}
+
 .collaborative-text-cont {
   flex: 1 2 300px;
   display: flex;
