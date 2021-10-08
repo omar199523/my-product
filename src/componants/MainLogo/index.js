@@ -4,7 +4,7 @@ import pepoleLogo from '../../img/pepoleLogo.svg';
 import {H1,H6} from '../Typograph'
  const MainLogo =()=>{
     return(
-        <section className="container main-pepole ">
+        <section className="main-pepole container">
             <div className="pepole-img"><img src={pepoleLogo} alt=""/></div>
             <div className="text-cont">
                 <H1>Work at the speed of thought</H1>

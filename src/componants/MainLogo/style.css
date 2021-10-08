@@ -1,6 +1,6 @@
 /*  */
 .main-pepole {
-  margin: 8em auto 0em !important;
+  padding: 10em 1em 0em !important;
   flex-direction: row-reverse;
 }
 .main-pepole .text-cont {
@@ -50,7 +50,7 @@
 }
 .button-cont button:last-child {
   color: #02897a;
-  background-color: #fff;
+  background-color: transparent;
   text-indent: 2px;
   flex: 1 1 160px;
 }
