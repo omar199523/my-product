@@ -1,28 +1,39 @@
-import React from 'react';
+import React,{useState} from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../img/logo.svg';
+import { H1 } from '../Typograph';
 import './style.css';
 
 
-const Header = () => {
+const Header = ({setDarckMode ,DarckMode}) => {
+    const [activeNav,setActiveNav] = useState(false);
+    const handdleDarckMode = ()=>{
+        console.log(setDarckMode)
+        setDarckMode(!DarckMode)
+    }
     return (
         <header className="main-header">
-            <a href="#" className="main-logo">
+            <Link href="/" className="main-logo">
                 <img src={logo} alt="logo" />
-                <h1>Product</h1>
-            </a>
-            <ul className="main-nav-bar hadin-sx">
-                <li>Product</li>
-                <li>Customers</li>
-                <li>Pricing</li>
-                <li>Resources</li>
-                <li className="button sing-in">Sing In</li>
-                <li className="button sing-up">Sing Up</li>
-                <li><a href="#" className="half-circite"></a></li>
-               
-            </ul>
-            
-            <div className="visbule-sx nav-icon">
-                <div></div>
+                <H1>Product</H1>
+            </Link>
+            <div className= "main-nav-bar">
+                <ul className={(activeNav)?"active":null}>
+                    <Link to="/"><li>Product</li></Link>
+                    <Link to="/Customers"><li>Customers</li></Link>
+                    <Link to="/Pricing"><li>Pricing</li></Link>
+                    <Link to="/Resources"><li>Resources</li></Link>
+                    <li className="button sing-in">Sing In</li>
+                    <li className="button sing-up">Sing Up</li>
+                    
+                
+                </ul>
+                <div className="half-circite" onClick={handdleDarckMode}>
+                    <div></div><div></div>
+                </div>
+                <div className="visbule-sx nav-icon" onClick={()=>(setActiveNav((prev)=>{return !prev}))}>
+                    <div></div>
+                </div>
             </div>
         </header>
     )

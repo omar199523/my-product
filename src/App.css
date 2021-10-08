@@ -3,13 +3,32 @@ html {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
 }
+:root {
+  --backgroundColor: #fff;
+  --HederFontColor: #173a56;
+  --FontColor: #22343d;
+}
+.darck-mode {
+  --backgroundColor: #22343d;
+  --HederFontColor: #fff;
+  --FontColor: #fff;
+  max-width: 100%;
+}
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: var(--backgroundColor);
 }
 .App {
   max-width: 100%;
+}
+.half-circle {
+  width: 100%;
+  height: 150hv;
+  background-color: red;
+  clip-path: circle(30%);
+  z-index: 10;
 }
 .container {
   padding: 1em;
@@ -18,6 +37,7 @@ html {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  z-index: 5;
 }
 
 .clear-fext {
