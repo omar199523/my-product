@@ -11,7 +11,32 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  padding: 1em;
 }
-.col-3 {
+.contents-section div >.col-3{
+  border-radius: 10px;
   flex: 1 3 300px;
+  margin-bottom: 1em;
+  background-color: #fff;
+  margin-right:1em ;
+}
+.col-3 >*{
+  background-color:transparent;
+  color: #22343d;
+  
+}
+.col-3 h3,p{
+  padding:0em 1em 1em ;
+}
+.col-3 img{
+  width: 100%;
+  border-radius: 10px 10px 0px 0px ;
+  
+}
+.col-3 p>span{
+  font-size: 1em;
+  font-weight: 800;
+  background-color: #fff;
+  color: #22343d;
 }
