@@ -1,0 +1,35 @@
+.join-section{
+    background-color: #02897A;
+    padding: 1em;
+    border-radius: 1em;
+}
+.join-text-cont{
+    padding: 2em 4em;
+    flex: 2 1 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: transparent;
+    color: #fff;
+    align-self: stretch;
+}
+.join-text-cont h2{
+    background-color: transparent;
+}
+.join-text-cont button{
+    align-self: flex-start;
+    padding: 1em 2em;
+    border: 0;
+    border-radius:5px ;
+    color: #02897A;
+    background-color: #fff;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+.join-img{
+    background-color: transparent;
+}
+ .join-img img{
+     flex: 1 1 200px;
+    background-color: #02897A;
+}

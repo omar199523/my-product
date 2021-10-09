@@ -63,12 +63,12 @@
   .main-nav-bar ul {
     position: fixed;
     min-width: 100%;
-    height: 65vh;
-    top: 4.5em;
+    height: 80vh;
+    top: 0;
     left: 0;
     padding: 2em 4em;
     flex-direction: column;
-    clip-path: circle(50px at 95% -10%);
+    clip-path: circle(10px at 90% 0%);
     transition: clip-path 0.4s ease-in-out;
   }
 
