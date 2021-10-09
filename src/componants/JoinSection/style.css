@@ -27,9 +27,10 @@
     font-weight: 800;
 }
 .join-img{
+    flex: 1 1 200px;
     background-color: transparent;
 }
  .join-img img{
-     flex: 1 1 200px;
+    Width:100%;
     background-color: #02897A;
 }
