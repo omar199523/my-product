@@ -8,8 +8,8 @@ import './style.css'
  const QuickSection = () => {
     return (
         <section className="Quick-section container">
-            <H2>Quick & Easy Process</H2>
-            <P2>Do you require some help for your project: Conception workshop,
+            <H2  className="quick-title">Quick & Easy Process</H2>
+            <P2 className="quick-parg">Do you require some help for your project: Conception workshop,
             prototyping, marketing strategy, landing page, Ux/UI?</P2>
             <div className = "clints-opinions">
                 <div className="col-2">

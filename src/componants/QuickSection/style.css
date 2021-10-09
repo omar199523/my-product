@@ -1,13 +1,13 @@
 .Quick-section {
   flex-direction: column;
-  align-items: center;
 }
-.Quick-section h2,
-p {
+.Quick-section .quick-tilte,
+.quick-parg {
   max-width: 550px;
   text-align: center;
-  padding: 1em 0em 0em;
+  padding: 1.4em 0em 0em;
 }
+
 .clints-opinions {
   display: flex;
   justify-content: space-between;

@@ -1,12 +1,12 @@
 import React from 'react';
 import {H2,H3,P1,P3} from '../Typograph'
-import './style.css'
+import './style.css';
 
  const ContentsSection = () => {
     return (
-        <section className="container">
-            <H2>Contents Strategies</H2>
-            <P3>We focus on ergonomics and meeting you where you work. It's only a keystroke away. </P3>
+        <section className="container contents-section">
+            <H2 className="contents-title">Contents Strategies</H2>
+            <P3 className="contents-parg">We focus on ergonomics and meeting you where you work. It's only a keystroke away. </P3>
             <div>
                 <div className="col-3 contnet-col-1">
                     <img src="{}" alt=""/>

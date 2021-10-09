@@ -1,0 +1,17 @@
+.contents-section {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.contents-section .contents-title,
+.contents-parg {
+  align-self: flex-start;
+}
+.contents-section > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.col-3 {
+  flex: 1 3 300px;
+}
