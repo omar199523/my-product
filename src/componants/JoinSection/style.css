@@ -1,6 +1,15 @@
 .join-section{
     background-color: #02897A;
-    padding: 1em;
+    padding: 1.4em;
+    border-radius: 1em;
+}
+.join-continer{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #02897A;
     border-radius: 1em;
 }
 .join-text-cont{
@@ -13,6 +22,7 @@
     color: #fff;
     align-self: stretch;
 }
+
 .join-text-cont h2{
     background-color: transparent;
 }
@@ -25,12 +35,27 @@
     background-color: #fff;
     font-size: 1.1rem;
     font-weight: 800;
+    margin-top: 1.5em;
+}
+@media (max-width:767px){
+    .join-text-cont{
+        padding: 1.5em;
+        align-items: center;
+        
+    }
+    .join-text-cont button{
+        align-self: center;
+    }
+    .join-text-cont h2{
+        text-align: center;
+    }
 }
 .join-img{
-    flex: 1 1 200px;
     background-color: transparent;
+    flex: 1 1 200px;
+    
 }
  .join-img img{
-    Width:100%;
-    background-color: #02897A;
+     width: 100%;
+     background-color: transparent;
 }
