@@ -26,11 +26,12 @@ import './style.css';
                     <P3>By <span>Wahid Ari </span>|  03 March 2019</P3>
                     <H3>Success Steps For Your Personal Or Business</H3>
                 </div>
-                <div className="smoll-circle">
-                    <span className="contiet-circle-1"></span>
-                    <span className="contiet-circle-2"></span>
-                    <span className="contiet-circle-3"></span>
-                </div>
+                
+            </div>
+            <div className="smoll-circle hadin-sx">
+                <span className="contiet-circle-1"></span>
+                <span className="contiet-circle-2"></span>
+                <span className="contiet-circle-3"></span>
             </div>
 
         </section>

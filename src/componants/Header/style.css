@@ -22,11 +22,12 @@
   display: flex;
   text-decoration: none;
 }
-.main-logo h1 {
+.main-logo > h2 {
   font-family: Poppins;
   font-size: 30px;
   font-weight: bold;
   padding: 0.2em 0.6em;
+  
 }
 .main-nav-bar {
   display: flex;

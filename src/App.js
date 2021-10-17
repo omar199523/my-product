@@ -7,6 +7,7 @@ import Customers from './pages/Customers';
 import Pricing from './pages/Pricing';
 import Resources from './pages/Resources';
 import './App.css';
+import Footer from './componants/Footer';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/Pricing" component={Pricing} />
           <Route path="/Resources" component={Resources} />
         </Switch>
+        <Footer/>
       </Router>
     </div>
  

@@ -40,3 +40,24 @@
   background-color: #fff;
   color: #22343d;
 }
+.smoll-circle{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
+.smoll-circle span{
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+  background-color: #ddd;
+  border-radius:10px ;
+}
+.contnet-col-1:hover >h3{
+  color: #02897A;
+}
+.contnet-col-1:hover>h3 , .contiet-circle-1:hover{
+  color: #02897A;
+  background-color: #02897A;
+  
+}
