@@ -13,7 +13,7 @@ const Header = ({setDarckMode ,DarckMode}) => {
     }
     return (
         <header className="main-header">
-            <Link href="/" className="main-logo">
+            <Link to="/" className="main-logo">
                 <img src={logo} alt="logo" />
                 <H1>Product</H1>
             </Link>
