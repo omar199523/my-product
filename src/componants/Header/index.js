@@ -23,8 +23,8 @@ const Header = ({setDarckMode ,DarckMode}) => {
                     <Link to="/Customers"><li>Customers</li></Link>
                     <Link to="/Pricing"><li>Pricing</li></Link>
                     <Link to="/Resources"><li>Resources</li></Link>
-                    <li className="button sing-in">Sing In</li>
-                    <li className="button sing-up">Sing Up</li>
+                    <li className="button sing-in">Sign In</li>
+                    <li className="button sing-up">Sign Up</li>
                     
                 
                 </ul>
